@@ -1,8 +1,7 @@
-#include <iostream>
-
 const int BOARD_SIZE = 3;
 
-// Display the game board
+/ Display the game board
+
 void displayBoard(char game[BOARD_SIZE][BOARD_SIZE]) {
     std::cout << "\nCurrent board:\n";
     std::cout << "  1 2 3\n";
@@ -17,6 +16,8 @@ void displayBoard(char game[BOARD_SIZE][BOARD_SIZE]) {
     }
     std::cout << std::endl;
 }
+
+
 
 // Check if a player has won
 bool isWin(char game[BOARD_SIZE][BOARD_SIZE], char player) {
