@@ -92,7 +92,9 @@ int main() {
             continue;
         }
 
-        // Convert to 0-based index
+
+
+       // Convert to 0-based index
         int row = i - 1;
         int col = j - 1;
 
