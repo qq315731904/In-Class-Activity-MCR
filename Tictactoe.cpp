@@ -18,6 +18,8 @@ void displayBoard(char game[BOARD_SIZE][BOARD_SIZE]) {
     std::cout << std::endl;
 }
 
+
+
 // Check if a player has won
 bool isWin(char game[BOARD_SIZE][BOARD_SIZE], char player) {
     // Check rows
@@ -124,4 +126,5 @@ int main() {
     }
 
     return 0;
+
 }
