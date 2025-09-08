@@ -19,7 +19,6 @@ void displayBoard(char game[BOARD_SIZE][BOARD_SIZE]) {
 }
 
 
-
 // Check if a player has won
 bool isWin(char game[BOARD_SIZE][BOARD_SIZE], char player) {
     // Check rows
@@ -34,6 +33,7 @@ bool isWin(char game[BOARD_SIZE][BOARD_SIZE], char player) {
             return true;
     }
 
+    
     // Check diagonals
     if (game[0][0] == player && game[1][1] == player && game[2][2] == player)
         return true;
@@ -128,3 +128,4 @@ int main() {
     return 0;
 
 }
+
